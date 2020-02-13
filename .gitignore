@@ -1,0 +1,32 @@
+# macOS General
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# mypy
+/.mypy_cache/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+build/
+
+# Virtualenv
+venv
+
+# Editors
+/.idea
+/.mypy_cache
+*.swp
+
+# Import shell script
+scripts/*.sh
+
+# CTags
+/tags
