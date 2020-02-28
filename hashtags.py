@@ -1,7 +1,8 @@
+import argparse
+import random
+
 import hashtags_config as hc
 import hashtags_data as hd
-import argparse 
-import random
 
 
 def add_to_hashtags(h_list, hashtags, size):
@@ -22,7 +23,7 @@ def gen_hashtags(photo_type, n=25):
         return "Maximum number of hastag is 30."
 
     if photo_type not in hc.TYPE_MAP:
-      return f"'{photo_type}' is not a supported category."
+        return f"'{photo_type}' is not a supported category."
 
     type_map = hc.TYPE_MAP[photo_type]
     hashtags = set()
@@ -40,14 +41,20 @@ def gen_hashtags(photo_type, n=25):
     return "\n".join(hashtags)
 
 
-def main(): 
-    parser = argparse.ArgumentParser(description = "A #hashtag generator") 
-    parser.add_argument("-t", "--type", type=str, required=True, help="Type of post (ie, portrait, landscape).") 
-    parser.add_argument("-n", "--number", type=int, default=25, help="Number of hashtags.") 
-    args = parser.parse_args() 
-      
+def main():
+    parser = argparse.ArgumentParser(description="A #hashtag generator")
+    parser.add_argument(
+        "-t", "--type", type=str, required=True,
+        help="Type of post (ie, portrait, landscape).",
+    )
+    parser.add_argument(
+        "-n", "--number", type=int,
+        default=25, help="Number of hashtags.",
+    )
+    args = parser.parse_args()
+
     print(gen_hashtags(args.type, args.number))
 
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     main()

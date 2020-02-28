@@ -1,0 +1,41 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+    -   id: check-docstring-first
+    -   id: check-executables-have-shebangs
+    -   id: check-json
+    -   id: check-merge-conflict
+    -   id: check-yaml
+    -   id: debug-statements
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+    -   id: flake8
+        args: ['--ignore=B305']
+        additional_dependencies:
+        -   flake8-bugbear==18.8.0
+        -   flake8-builtins==1.4.1
+        -   flake8-comprehensions==1.4.1
+        -   flake8-tidy-imports==1.1.0
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.4.4
+    hooks:
+    -   id: autopep8
+-   repo: https://github.com/asottile/add-trailing-comma
+    rev: v1.5.0
+    hooks:
+    -   id: add-trailing-comma
+        args: [--py36-plus]
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v1.25.1
+    hooks:
+    -   id: pyupgrade
+        args: [--py36-plus]
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v1.8.0
+    hooks:
+    -   id: reorder-python-imports
+        args: [--py3-plus]
