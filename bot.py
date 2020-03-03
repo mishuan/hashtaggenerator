@@ -2,7 +2,7 @@ from discord.ext import commands
 
 from hashtags import gen_hashtags
 
-DISCORD_TOKEN = "Njc3MzA3NzA3NDMwMTQxOTcz.XlmhJA.Yq-mJA2dnaHkvFE8G-9ry2ncx_A"
+DISCORD_TOKEN = "<INSERT TOKEN HERE>"
 
 bot = commands.Bot(command_prefix='!')
 
