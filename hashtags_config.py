@@ -14,8 +14,15 @@ GEN = {
 }
 
 GEN_FILM = {
-    hd.FILM: 0.67,
-    hd.FILM_FEATURES: 0.33,
+    hd.FILM: 0.8,
+    hd.FILM_FEATURES: 0.2,
+}
+
+ASIA_FILM = {
+    hd.FILM: 0.5,
+    hd.FILM_FEATURES: 0.2,
+    hd.JP_FILM: 0.2,
+    hd.KR_FILM: 0.1
 }
 
 TYPE_MAP = {
@@ -23,4 +30,6 @@ TYPE_MAP = {
     'general': GEN,
     'bayareaportraits': YAYAREA_PORTS,
     'general_film': GEN_FILM,
+    'asia_film': ASIA_FILM
 }
+
