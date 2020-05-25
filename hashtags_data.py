@@ -2,25 +2,6 @@
 # Map string identifier to list
 LIST_MAP = {}
 
-GENERIC = 'generic'
-generic = [
-    "#broadmag",
-    "#exploreobserveshare",
-    "#magazine35mm",
-    "#lookslikefilm",
-    "#cerealmag",
-    "#weltraumzine",
-    "#oldtonecollective",
-    "#exploreobserveshare",
-    "#weltraumzine",
-    "#imaginarymagnitude",
-    "#somewheremagazine",
-    "#ignant",
-    "#stademagazine",
-    "#satellitetales",
-]
-LIST_MAP[GENERIC] = generic
-
 FUJIFLM = 'fujifilm'
 fujifilm = [
     "#fujilove",
@@ -833,3 +814,125 @@ indo_film = [
     "#retroikafilme",
 ]
 LIST_MAP[INDO_FILM] = indo_film
+
+# tags with 10k-100k submissions
+AESTHETIC_S = 'aesthetic_s'
+aesthetic_s = [
+    '#nothinglessmag',
+    '#fujifilmxe3',
+    '#etczine_trip',
+    '#thezonezine',
+    '#myfujifilmlegacy',
+    '#fujinon35mmf14',
+    '#vintagefeed',
+    '#nowheremagazine',
+    '#aestheticvibe',
+    '#aestheticsoft',
+    '#fujixpro3',
+    '#tnscollective',
+    '#cinesomnia',
+    '#protectyourhighlights',
+    '#creatorcommune',
+    '#mytinyatlashello',
+    '#thislifemagazine',
+    '#voyagecollective',
+    '#dreamagazine',
+    '#concretewaveco',
+    '#nextjauntmag',
+    '#satellitetales',
+    '#concretewaveco',
+    '#fujixpassion',
+]
+LIST_MAP[AESTHETIC_S] = aesthetic_s
+
+# tags with 100k-300k submissions
+AESTHETIC_M = 'aesthetic_m'
+aesthetic_m = [
+    '#xphotographer',
+    '#minimablu',
+    '#fujifilmx',
+    '#retrovibes',
+    '#fujixlovers',
+    '#kodizes',
+    '#observationmag',
+    '#anotherplacemagazine',
+    '#futurebalance',
+    '#somewheremag',
+    '#ifyouleavestagram',
+    '#pixsoulmag',
+    '#floatmagazine',
+    '#shootaesthetics',
+    '#insomniamag',
+    '#fujixshooters',
+    '#fujiphotography',
+    '#lightaesthetic',
+    '#fujixfam',
+    '#fujifilmxt30',
+    '#fujifilmxh1',
+    '#aestheticvibes',
+    '#aestheticinspiration',
+    '#takemagazine',
+    '#staycinematic',
+    '#nuagesmagazine',
+    '#la_minimal',
+    '#anotherescape',
+    '#stademagazine',
+    '#oksfieldmag',
+    '#palepalmcollection',
+    '#thinkveryfilm',
+    '#tinypeopleinbigplaces',
+    '#rundownmagazine',
+    '#freshairclub',
+    '#repostmyfuji',
+    '#curiouscameraclub',
+    '#fivesixmag',
+    '#aintbad',
+    '#opendoorsgallery',
+    '#theheavycollective',
+]
+LIST_MAP[AESTHETIC_M] = aesthetic_m
+
+AESTHETIC_L = 'aesthetic_l'
+aesthetic_l = [
+    '#aestheticpage',
+    '#hippomag',
+    '#thisveryinstant',
+    '#weltraumzine',
+    '#odtakeovers',
+    '#aestheticphotos',
+    '#fujixclub',
+    '#fuji_xseries',
+    '#espritmag',
+    '#aesthetictheme',
+    '#n8zine',
+    '#exploreobserveshare',
+    '#magazine35mm',
+    '#cerealmag',
+    '#oldtonecollective',
+    '#imaginarymagnitude',
+    '#ozshotmag',
+    '#ignantpicoftheday',
+    '#solarcollective',
+    '#wherewillwegonext',
+    '#fujiframez',
+    '#phornography',
+    '#thisaintartschool',
+    '#burnmagazine',
+]
+LIST_MAP[AESTHETIC_L] = aesthetic_l
+
+SF = 'sf'
+sf = [
+    '#sfgate',
+    '#sfpulse',
+    '#sf_creatives',
+    '#bay_shooters',
+    '#sf_insta',
+    '#wildbayarea',
+    '#ilovesf',
+    '#ig_california',
+    '#sf_insta',
+    '#sfbayarea',
+    '#igerssf',
+]
+LIST_MAP[SF] = sf
