@@ -819,6 +819,7 @@ LIST_MAP[INDO_FILM] = indo_film
 AESTHETIC_S = 'aesthetic_s'
 aesthetic_s = [
     '#nothinglessmag',
+    '#saturdaysmag',
     '#fujifilmxe3',
     '#etczine_trip',
     '#thezonezine',
@@ -842,12 +843,22 @@ aesthetic_s = [
     '#satellitetales',
     '#concretewaveco',
     '#fujixpassion',
+    '#fujixphotographer',
+    '#fujifilmxe1',
+    '#sweetnesday',
 ]
 LIST_MAP[AESTHETIC_S] = aesthetic_s
 
 # tags with 100k-300k submissions
 AESTHETIC_M = 'aesthetic_m'
 aesthetic_m = [
+    '#focalzine',
+    '#classicchrome',
+    '#Onearthmagazine',
+    '#documentingspace',
+    '#dazedandexposed',
+    '#24hrchurch',
+    '#theoctobermagazine',
     '#xphotographer',
     '#minimablu',
     '#fujifilmx',
@@ -869,6 +880,7 @@ aesthetic_m = [
     '#fujixfam',
     '#fujifilmxt30',
     '#fujifilmxh1',
+    '#fujilovers',
     '#aestheticvibes',
     '#aestheticinspiration',
     '#takemagazine',
@@ -889,11 +901,15 @@ aesthetic_m = [
     '#aintbad',
     '#opendoorsgallery',
     '#theheavycollective',
+    '#nightwalkermagazine',
 ]
 LIST_MAP[AESTHETIC_M] = aesthetic_m
 
 AESTHETIC_L = 'aesthetic_l'
 aesthetic_l = [
+    '#makemeseemag',
+    '#reframedmag',
+    '#worldviewmag',
     '#aestheticpage',
     '#hippomag',
     '#thisveryinstant',
@@ -918,6 +934,11 @@ aesthetic_l = [
     '#phornography',
     '#thisaintartschool',
     '#burnmagazine',
+    '#apricotmagazine',
+    '#yetmagazine',
+    '#indiependentmag',
+    '#collecmag',
+    '#onbooooooom',
 ]
 LIST_MAP[AESTHETIC_L] = aesthetic_l
 
