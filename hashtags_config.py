@@ -42,6 +42,10 @@ ASIA_FILM = {
     hd.KR_FILM: 0.1,
 }
 
+GGB = {
+    hd.GGB: 1.0,
+}
+
 TYPE_MAP = {
     'portraits': GEN_PORTS,
     'gen_ports_small': GEN_PORTS_SMALL,
@@ -49,4 +53,5 @@ TYPE_MAP = {
     'bayareaportraits': YAYAREA_PORTS,
     'general_film': GEN_FILM,
     'asia_film': ASIA_FILM,
+    'ggb': GGB,
 }
