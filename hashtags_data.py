@@ -957,3 +957,25 @@ sf = [
     '#igerssf',
 ]
 LIST_MAP[SF] = sf
+
+GGB = 'ggb'
+ggb = [
+    '#ggb',
+    '#sanfranciscocity',
+    '#sflife',
+    '#sanfranciscobay',
+    '#goldengatebridge',
+    '#goldengate',
+    '#sanfran',
+    '#sfgate',
+    '#sfpulse',
+    '#sf_creatives',
+    '#bay_shooters',
+    '#sf_insta',
+    '#wildbayarea',
+    '#ilovesf',
+    '#sf_insta',
+    '#sfbayarea',
+    '#igerssf',
+]
+LIST_MAP[GGB] = ggb
