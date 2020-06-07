@@ -25,9 +25,9 @@ YAYAREA_PORTS_SMALL = {
 
 GEN_SMALL = {
     hd.FILM_FEATURES: 0.2,
-    hd.AESTHETIC_S: 0.45,
-    hd.AESTHETIC_M: 0.25,
-    hd.AESTHETIC_L: 0.10,
+    hd.AESTHETIC_S: 0.5,
+    hd.AESTHETIC_M: 0.2,
+    hd.AESTHETIC_L: 0.1,
 }
 
 GEN_FILM = {
