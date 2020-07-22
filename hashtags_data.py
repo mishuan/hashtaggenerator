@@ -391,6 +391,9 @@ MINIMALISM = 'minimalism'
 minimalism = [
     "#gominimalmag",
     "#lucecurated",
+    "#ig_mnms",
+    "#minimablu",
+    "#rsa_minimal",
 ]
 LIST_MAP[MINIMALISM] = minimalism
 
