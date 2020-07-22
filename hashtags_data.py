@@ -965,6 +965,7 @@ ggb = [
     '#sflife',
     '#sanfranciscobay',
     '#goldengatebridge',
+    '#goldiethebridge'
     '#goldengate',
     '#sanfran',
     '#sfgate',
