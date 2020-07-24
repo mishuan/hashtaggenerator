@@ -857,12 +857,14 @@ LIST_MAP[AESTHETIC_S] = aesthetic_s
 AESTHETIC_M = 'aesthetic_m'
 aesthetic_m = [
     '#focalzine',
+    '#cineminer',
     '#classicchrome',
     '#Onearthmagazine',
     '#documentingspace',
     '#dazedandexposed',
     '#24hrchurch',
     '#theoctobermagazine',
+    '#25bluehours',
     '#xphotographer',
     '#minimablu',
     '#fujifilmx',
