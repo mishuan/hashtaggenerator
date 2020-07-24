@@ -864,6 +864,7 @@ aesthetic_m = [
     '#dazedandexposed',
     '#24hrchurch',
     '#theoctobermagazine',
+    '#25bluehours',
     '#xphotographer',
     '#minimablu',
     '#fujifilmx',
