@@ -30,6 +30,13 @@ GEN_SMALL = {
     hd.AESTHETIC_L: 0.1,
 }
 
+GEN_SMALL_V2 = {
+    hd.FILM_FEATURES: 0.1,
+    hd.AESTHETIC_S: 0.4,
+    hd.AESTHETIC_M: 0.4,
+    hd.AESTHETIC_L: 0.1,
+}
+
 GEN_FILM = {
     hd.FILM: 0.8,
     hd.FILM_FEATURES: 0.2,
@@ -50,6 +57,7 @@ TYPE_MAP = {
     'portraits': GEN_PORTS,
     'gen_ports_small': GEN_PORTS_SMALL,
     'gen_small': GEN_SMALL,
+    'gen_small_v2': GEN_SMALL_V2,
     'bayareaportraits': YAYAREA_PORTS,
     'general_film': GEN_FILM,
     'asia_film': ASIA_FILM,
