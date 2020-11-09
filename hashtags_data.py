@@ -822,6 +822,8 @@ LIST_MAP[INDO_FILM] = indo_film
 AESTHETIC_S = 'aesthetic_s'
 aesthetic_s = [
     '#nothinglessmag',
+    '#alliseemag',
+    '#collectivesoulmag',
     '#auressa',
     '#minimalmag',
     '#fadedaesthetics',
@@ -833,7 +835,7 @@ aesthetic_s = [
     '#fujinon35mmf14',
     '#vintagefeed',
     '#nowheremagazine',
-    '#norcality'
+    '#norcality',
     '#fujixpro3',
     '#cinesomnia',
     '#protectyourhighlights',
